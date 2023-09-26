@@ -1,1 +1,0 @@
-import{_ as c,r as o,o as l,c as a,w as s,a as t}from"./index-b667e11a.js";const _={};function r(i,p){const e=o("van-cell"),n=o("van-cell-group");return l(),a(n,{title:"时间"},{default:s(()=>[t(e,{title:"定时循环","is-link":"",to:"/time/loop"}),t(e,{title:"定时循环设置","is-link":"",to:"/time/loop/set"})]),_:1})}const f=c(_,[["render",r]]);export{f as default};
