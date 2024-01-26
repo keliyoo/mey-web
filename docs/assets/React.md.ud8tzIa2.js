@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.GoBk8JzE.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"React.md","filePath":"packages/React/index.md"}'),c={name:"React.md"};function r(n,o,s,d,i,p){return a(),t("div")}const f=e(c,[["render",r]]);export{m as __pageData,f as default};
