@@ -9,14 +9,18 @@
   404
 
   <script>
-    console.log('location', location);
-    const pathList = location.pathname.replace('/web/', '').split('/');
-    if(pathList.length < 2) {
-      return void location.replace('https://lpf-code.github.io/web/rt')
+    const redirect = () => {
+        console.log('location', location);
+        const pathList = location.pathname.replace('/web/', '').split('/');
+        if(pathList.length < 2) {
+          return void location.replace('https://lpf-code.github.io/web/rt')
+        }
+        if(!pathList.at(-1).endsWith('.')){
+          return void location.replace(`https://lpf-code.github.io/web/${pathList[0]}`)
+        }
     }
-    if(!pathList.at(-1).endsWith('.')){
-      return void location.replace(`https://lpf-code.github.io/web/${pathList[0]}`)
-    }
+    
+    redirect()
   </script>
 </body>
 </html>
