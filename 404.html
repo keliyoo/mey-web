@@ -15,7 +15,7 @@
         if(pathList.length < 2) {
           return void location.replace('https://lpf-code.github.io/web/rt')
         }
-        if(!pathList.at(-1).endsWith('.')){
+        if(!pathList.at(-1).includes('.')){
           return void location.replace(`https://lpf-code.github.io/web/${pathList[0]}`)
         }
     }
