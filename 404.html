@@ -13,7 +13,7 @@
         console.log('location', location);
         const pathList = location.pathname.replace('/web/', '').split('/');
         if(pathList.length < 2) {
-          return void location.replace('https://lpf-code.github.io/web/rt')
+          return void location.replace('https://lpf-code.github.io/web/admin')
         }
         if(!pathList.at(-1).includes('.')){
           return void location.replace(`https://lpf-code.github.io/web/${pathList[0]}`)
